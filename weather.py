@@ -1,9 +1,12 @@
-from flask import Flask
+from flask import Flask,render_template
+from markupsafe import escape
+from flask import abort, redirect, url_for
 app = Flask(__name__)
 
 @app.route('/')
-def weather():
-  return'weather app'
+def main():
+  return render_template('index.html')
 
-if __name__ == '__weather__':
-  app.run() 
+
+if __name__ == '__main__':
+  app.run(debug = 1) 
