@@ -1,3 +1,4 @@
+import os
 from flask import Flask,render_template
 from markupsafe import escape
 from flask import abort, redirect, url_for
@@ -8,5 +9,6 @@ def main():
   return render_template('index.html')
 
 
+
 if __name__ == '__main__':
-  app.run(debug = 1) 
+  app.run(debug = True) 

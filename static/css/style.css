@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+.navbar {
+
+    max-width: 100%;
+    margin: 3% 2% 0 2%;
+    background-color:lightblue;
+    align-items: center;
+}
+
+.centre{
+    text-align: center;
+}
+
+#title{
+    font-size: 2rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    max-width: 100%;
+  }
+
+.grid-item {
+    border-style: solid hidden hidden hidden;
+    display: flex;
+    align-items: center;
+   }
+
+.form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1%;
+  }
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+  }
+
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+
+  .search-button img {
+    width: 20px;
+    object-fit: cover;
+  }
