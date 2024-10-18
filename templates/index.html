@@ -8,23 +8,39 @@
         <link rel="stylesheet" href="..\static\css\style.css"> 
   </head>
   <body>
+    <div class="app-space">
 <!-- Navigation Bar -->
-  <nav class="navbar">
-    <h1 class="centre", id="title">Weather</h1>
-    <div class="grid-container">
-        <div class="grid-item"><p>Home</p></div>
-        <div class="grid-item"><p>Today</p></div>
-        <div class="grid-item"><p>This Week</p></div>
-        <div class="grid-item"></div>
-        <div class="grid-item">
-          <form action="nothing" method="GET" class="form">
-              <input type="search" placeholder="Search..." class="search-field">
-              <button type="submit" class="search-button">
-                <img src="..\static\img\search-icon.png" alt="search-icon">
-              </button>
-            </form>
+    <nav class="navbar">
+      <h1 class="centre", id="title">Weather</h1>
+      <div class="grid-container">
+          <div class="grid-item"><p>Home</p></div>
+          <div class="grid-item"><p>Today</p></div>
+          <div class="grid-item"><p>This Week</p></div>
+          <div class="grid-item"></div>
+          <div class="grid-item">
+            <form action="nothing" method="GET" class="form">
+                <input type="search" placeholder="Search..." class="search-field">
+                <button type="submit" class="search-button">
+                  <img src="..\static\img\search-icon.png" alt="search-icon">
+                </button>
+              </form>
+        </div>
       </div>
+    </nav>
+    <div class="flex-container">
+      <div class="flex-item"><h2>Today</h2></div>
+      <div class="flex-item"><h2>21c</h2></div>
+      <div class="flex-item"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+      <!-- <div class="grid-container2">
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+        <div class="grid-item2"><img class="icon-size" src="..\static\img\cloudy-with-sun.png" alt="cloudy-with-sun"></div>
+      </div> -->
     </div>
-  </nav>
+   </div>
   </body>
 </html>
