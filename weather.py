@@ -8,6 +8,14 @@ app = Flask(__name__)
 def main():
   return render_template('index.html')
 
+@app.route('/today')
+def today():
+  return render_template('today.html')
+
+@app.route('/week')
+def week():
+  return render_template('week.html')
+
 
 
 if __name__ == '__main__':

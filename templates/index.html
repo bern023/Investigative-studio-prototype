@@ -1,3 +1,6 @@
+{% extends 'nav.html' %}
+
+{% block content %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,26 +10,10 @@
         <title>Weather app</title>
         <link rel="stylesheet" href="..\static\css\style.css"> 
   </head>
+
   <body>
     <div class="app-space">
-<!-- Navigation Bar -->
-    <nav class="navbar">
-      <h1 class="centre", id="title">Weather</h1>
-      <div class="grid-container">
-          <div class="grid-item"><p>Home</p></div>
-          <div class="grid-item"><p>Today</p></div>
-          <div class="grid-item"><p>This Week</p></div>
-          <div class="grid-item"></div>
-          <div class="grid-item">
-            <form action="nothing" method="GET" class="form">
-                <input type="search" placeholder="Search..." class="search-field">
-                <button type="submit" class="search-button">
-                  <img src="..\static\img\search-icon.png" alt="search-icon">
-                </button>
-              </form>
-        </div>
-      </div>
-    </nav>
+
     <div class="grid-wrapper">
       <div class="g-item"><h2>Today</h2></div>
       <div class="g-item2"><h2>21°c</h2></div>
@@ -44,3 +31,4 @@
    </div>
   </body>
 </html>
+{% endblock %}

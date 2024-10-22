@@ -1,0 +1,27 @@
+<!-- Navigation Bar -->
+<head>
+  <!-- The meta tag -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="..\static\css\style.css"> 
+</head>
+<nav class="navbar">
+  <h1 class="centre", id="title">Weather</h1>
+  <div class="grid-container">
+      <div class="grid-item"><a class="nav-link" href="/">Home</a></div>
+      <div class="grid-item"><a class="nav-link" href="/today">Today</a></div>
+      <div class="grid-item"><a class="nav-link" href="/week">This Week</p></div>
+      <div class="grid-item"></div>
+      <div class="grid-item">
+        <form action="nothing" method="GET" class="form">
+            <input type="search" placeholder="Search..." class="search-field">
+            <button type="submit" class="search-button">
+              <img src="..\static\img\search-icon.png" alt="search-icon">
+            </button>
+          </form>
+    </div>
+  </div>
+</nav>
+{% block content %}
+{% endblock %}
