@@ -6,15 +6,19 @@
     }
 .app-space{
   max-width: 100%;
-  margin: 3% 2% 0 2%;
+  margin: 0% 2% 0 2%;
   background-color:lightblue;
   align-items: center;
 }
 .navbar {
-
-    border-bottom: solid;
+  max-width: 100%;
+  margin: 0% 2% 0 2%;
+  border-bottom: solid;
+  background-color: lightblue;
 }
-
+.nav-link{
+  text-decoration: none;
+}
 .centre{
     text-align: center;
 }
