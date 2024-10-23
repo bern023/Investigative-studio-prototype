@@ -18,6 +18,8 @@
 }
 .nav-link{
   text-decoration: none;
+  font-size: 1.25rem;
+  font-weight:600;
 }
 .centre{
     text-align: center;
@@ -29,7 +31,7 @@
 
 .grid-container{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 15% 15% 15% 15% 40%;
     max-width: 100%;
   }
 
@@ -38,6 +40,18 @@
     display: flex;
     align-items: center;
    }
+
+.grid-item a:hover {
+    color: darkblue;
+   }
+
+.grid-item a {
+    color: black;
+   }
+
+.tab-text{
+
+}
 
 .form {
     display: flex;
