@@ -81,6 +81,7 @@
     align-items: center;
     display: grid;  
     padding-left: 1%;
+    border-style: hidden solid hidden hidden;
   }
 
 .g-item{
@@ -98,12 +99,13 @@
 .g-item3{
   grid-column: 2;
   grid-row: 1/3;
+
 }
 
 
 .grid-container2{
-  display: flex;  
- 
+  display: flex; 
+  column-gap: 5vw;
 }
 
 .grid-item2{
@@ -116,5 +118,9 @@
 
 .icon-size2{
   width: 50%;
+}
+
+.graph-container{
+display: flex;
 }
 
