@@ -114,13 +114,40 @@
 
 .icon-size{
   max-width: 100%;
+  height: auto;
 }
 
 .icon-size2{
   width: 50%;
 }
+.today-grid{
+  margin-top: 1%;
+  margin-left: 1%;
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  
+}
+.today-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.in-depth-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+
+
+.radar-block{
+  width: 50%;
+  margin-left: 3%;
+}
 
 .graph-container{
 display: flex;
 }
+
 
