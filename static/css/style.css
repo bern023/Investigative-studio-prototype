@@ -145,9 +145,30 @@
   width: 50%;
   margin-left: 3%;
 }
-
+/*BM- messed up in .app-space and flex only does 1 row so need to make this one go below*/
 .graph-container{
 display: flex;
+padding-top: 1%;
+max-width: 100%;
+margin: 0% 2% 0 2%;
+background-color:lightblue;
+justify-content: center;
+column-gap: 25%;
+border-top: solid;
+}
+
+.week-space{
+max-width: 100%;
+margin: 0% 2% 0 2%;
+background-color:lightblue;
+justify-content: center;
+}
+
+.week-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
 }
 
 
