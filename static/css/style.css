@@ -113,7 +113,7 @@
 }
 
 .icon-size{
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -171,12 +171,12 @@ justify-content: center;
 }
 
 .week-detail{
-  /*fill in later*/
+
 }
 
 .week-grid{
   display: grid;
-  align-items: center;
+  text-align: center;
 }
 
 .week-item{
@@ -193,5 +193,26 @@ justify-content: center;
 
  .week-item4{
   grid-column: 4;
+  grid-row: 1;
  }
 
+ .week-item5{
+  grid-column: 4;
+  grid-row: 2;
+ }
+
+ .icon-resize{
+  width: 25%;
+  height: auto;
+ }
+
+ .radar-resize{
+  width: 100%;
+  height: auto;
+ }
+
+.flex{
+  display: flex;
+  align-items: center;
+  column-gap: 30%;
+}
