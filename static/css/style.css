@@ -121,13 +121,15 @@
   width: 50%;
 }
 .today-grid{
+  
   margin-top: 1%;
-  margin-left: 1%;
-  display: inline-grid;
-  grid-template-columns: 50% 50%;
+  margin-left: 2%;
+  display: grid;
+  grid-template-columns: auto auto;
   
 }
 .today-info{
+  margin: 3% 0% 3% 0%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -137,13 +139,13 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
+  padding:3%;
 }
-
-
-
 .radar-block{
-  width: 50%;
-  margin-left: 3%;
+  margin: 2% 0% 0% 10%;
+}
+.radar-img{
+  width:150%;
 }
 /*BM- messed up in .app-space and flex only does 1 row so need to make this one go below*/
 .graph-container{
@@ -168,6 +170,7 @@ justify-content: center;
  display: flex;
  align-items: center;
  justify-content: center;
+ margin: 0% 0% 3% 0%;
 }
 
 .week-detail{
