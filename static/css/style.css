@@ -170,11 +170,9 @@ justify-content: center;
  display: flex;
  align-items: center;
  justify-content: center;
- margin: 0% 0% 3% 0%;
-}
-
-.week-detail{
-  
+ margin: 0% 0% 1% 0%;
+ padding-bottom: 1%;
+ border-bottom: solid;
 }
 
 .week-grid{
@@ -226,3 +224,4 @@ justify-content: center;
 #week-title{
   text-align: center;
 }
+
