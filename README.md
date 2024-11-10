@@ -5,6 +5,11 @@ A team comprised of Braedan and Bernadette will be making a prototype weather ap
 Weather Icons created by https://www.iconfinder.com/laurareen 
 https://www.iconfinder.com/iconsets/the-weather-is-nice-today 
 
+Frameworks and Languages used:   
+Flask, Python, HTML, CSS, JavaScript and SQL Lite.
+
+^^^^ Make sure you have these to correctly run it ^^^^
+
 # To Run
 There are a few ways to run it. 
 
