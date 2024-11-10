@@ -120,13 +120,13 @@
 .icon-size2{
   width: 50%;
 }
+/*BW - created the today page*/
+/*BW- layed out the page using grids and flex boxes*/
 .today-grid{
-  
   margin-top: 1%;
   margin-left: 2%;
   display: grid;
   grid-template-columns: auto auto;
-  
 }
 .today-info{
   margin: 3% 0% 3% 0%;
@@ -177,12 +177,14 @@ justify-content: center;
 
 .week-grid{
   display: grid;
+  padding: 1%;
+  grid-template-columns: 20% 25% 20% 35%;
 }
 
 .week-item{
  grid-column: 1;
- display: flex;
- justify-content: center;
+ justify-content: right;
+ 
 }
 
 .week-item2{
@@ -191,8 +193,8 @@ justify-content: center;
  
  .week-item3{
   grid-column: 3;
-  display: flex;
-  justify-content: center;
+  justify-content:flex-end;
+ 
  }
 
  .week-item4{
@@ -206,8 +208,7 @@ justify-content: center;
  }
 
  .icon-resize{
-  width: 25%;
-  height: auto;
+  max-width: 25%;
  }
 
  .radar-resize{
