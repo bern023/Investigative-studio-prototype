@@ -4,6 +4,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta charset="utf-8">
   <link rel="stylesheet" href="..\static\css\style.css"> 
+  <script src="..\static\js\scripts.js"></script>
 </head>
 <nav class="navbar">
   <h1 class="centre", id="title">Weather</h1>
@@ -14,10 +15,10 @@
       <div class="grid-item"><a class="nav-link" href="/week">This Week</a></div>
       <div class="grid-item"></div>
       <div class="grid-item">
-        <form action="nothing" method="GET" class="form">
-            <input type="search" placeholder="Search..." class="search-field">
-            <button type="submit" class="search-button">
-              <img src="..\static\img\search-icon.png" alt="search-icon">
+        <form class="form" onsubmit="return grabWeather(event)">
+            <input type="text" id="location-input" placeholder="Enter Location..." class="search-field"> 
+            <button type="submit" class="search-button"> 
+              <img src="..\static\img\search-icon.png" alt="search-icon"> 
             </button>
           </form>
     </div>
