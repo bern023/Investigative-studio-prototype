@@ -186,6 +186,25 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+/* BW- making hourly temp content */
+.over-flow{
+  overflow-y: auto;
+  height: 150px;
+}
+.hour-grid{
+  display:grid;
+  grid-template-columns:30% 40% 30%;
+}
+.hour-row{
+  display:flex; 
+}
+.hour-item{
+  padding: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.hour-icon{
+  max-width:100%;
+}
 /*BM- messed up in .app-space and flex only does 1 row so need to make this one go below*/
 .graph-container{
 display: flex;
