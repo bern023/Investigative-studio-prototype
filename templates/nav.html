@@ -8,14 +8,16 @@
 </head>
 <nav class="navbar">
   <h1 class="centre", id="title">Weather</h1>
-  <!--Braedan M-->
+  <!--Braedan M this the code for the nav bar which inlcudes links to the pages-->
   <div class="grid-container">
       <div class="grid-item"><a class="nav-link" href="/">Home</a></div>
       <div class="grid-item"><a class="nav-link" href="/today">Today</a></div>
       <div class="grid-item"><a class="nav-link" href="/week">This Week</a></div>
       <div class="grid-item"></div>
       <div class="grid-item">
+<!--BM this is the text input code that is adjusted to stop the page reloading. This also stores user input to match against the database-->
         <form class="form" onsubmit="return grabWeather(event)">
+          <!--BM- when the user enters it calls a function to take the matching data in the database and returns it-->
             <input type="text" id="location-input" placeholder="Enter Location..." class="search-field"> 
             <button type="submit" class="search-button"> 
               <img src="..\static\img\search-icon.png" alt="search-icon"> 

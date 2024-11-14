@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    }
+    }/*BM- the default styling for each page*/
+/*BM- general space the content should take up plus stlying for nav bar*/
 .app-space{
   max-width: 100%;
   margin: 0% 2% 0 2%;
@@ -29,7 +30,7 @@
 #title{
     font-size: 2rem;
 }
-
+/*BM- containers for the grid style I use to lay out items on the page*/
 .grid-container{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 40%;
@@ -50,7 +51,7 @@
     color: black;
    }
 
-
+/*BM- text input styling*/
 .form {
     display: flex;
     flex-direction: row;
@@ -193,10 +194,10 @@ max-width: 100%;
 margin: 0% 2% 0 2%;
 background-color:lightblue;
 justify-content: center;
-column-gap: 25%;
+column-gap: 10%;
 border-top: solid;
 }
-
+/* BM- these are my containers, layout and size adjustments for the week page*/
 .week-space{
 max-width: 100%;
 margin: 0% 2% 0 2%;
@@ -263,4 +264,9 @@ justify-content: center;
 #week-title{
   text-align: center;
 }
+
+.radar-resize2{
+  width: 50%;
+  height: auto;
+ }
 
