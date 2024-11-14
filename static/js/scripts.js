@@ -1,14 +1,14 @@
 
-function grabWeather(event) { 
+function grabWeather(event) { //BM- this is the function used to compare the user input to what is in the database
     event.preventDefault(); //This stops the page reloading
-    var location = document.getElementById('location-input').value; 
-    fetch('/search?location=' + location) 
-    .then(response => response.json()) 
+    var location = document.getElementById('location-input').value; //BM- assigns the user input to the location variable
+    fetch('/search?location=' + location) //BM- here is sends a HTTP GET request to the /search found in the weather.py file
+    .then(response => response.json()) //This is returned after the request
     .then(data => { 
         if (data.error) 
-            { alert(data.error); 
+            { alert(data.error); //if there is an error it will display the error message
 
-        } else { 
+        } else { //if it manages to return with no errors the page will get updated with the data from the database
             document.getElementById('title').textContent = data.location;
             document.getElementById('degrees').textContent = data.degrees + '°c'; 
             document.getElementById('high').textContent = 'High: ' + data.high + '°c';
@@ -22,7 +22,7 @@ function grabWeather(event) {
                    
         } 
     }) 
-    .catch(error => console.error('Error:', error)); 
+    
 }
 //Bw Today page
 function openInfo(evt, tabName) {
