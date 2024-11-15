@@ -28,5 +28,8 @@ or
 Git Bash:  
 2. BW does it this way  
    flask --app weather run --debug
-    
+
+# Testing   
+To use the search feature enter these locations found in the database EXACTLY:    
+Auckland, Wellington, Christchurch, Rotorua
 
