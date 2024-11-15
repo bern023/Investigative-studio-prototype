@@ -288,4 +288,32 @@ justify-content: center;
   width: 50%;
   height: auto;
  }
+/* BM- Some code to handle responsivness and screen size*/
+ @media (max-width: 1150px) {
+  html {
+      font-size: 12px
+  }
+}
+
+@media (max-width: 990px) {
+  html {
+      font-size: 10px
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+      font-size: 8px
+  }
+  .search-field {
+      padding: 5px 17.5px 5px 7.5px;
+      font-size: 8px;
+      margin-right: 15px;
+  }
+  .search-button img {
+      width: 10px;
+  }
+}
+
+
 
